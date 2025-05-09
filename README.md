@@ -25,7 +25,7 @@ A user-friendly GUI application for classifying plant diseases and estimating th
 
 - Python 3.7 or higher
 - Tensorflow 2.x
-- Your trained model file (`model_epoch_20.keras`)
+- Your trained model file (`model_disease_classifier.keras`)
 
 ### Installation
 
@@ -63,7 +63,7 @@ python main_app.py
 - `main_app.py`: Main application with Tkinter GUI
 - `model_functions.py`: Model loading, prediction, and severity analysis functions
 - `utils.py`: Utility functions for labels and styling
-- `model_disease_classifier.keras`: Your trained model file (mine included in repo)
+- `model_disease_classifier.keras`: Your trained model file
 
 ## Custom Labels
 
