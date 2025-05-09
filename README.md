@@ -14,7 +14,7 @@ A user-friendly GUI application for classifying plant diseases and estimating th
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/38721f3f-42d1-4a38-8988-73ecd3d67d8f)
 
-![image](https://github.com/user-attachments/assets/77cc980d-460a-4ab0-ab34-fd02b5ab2d85)
+
 
 ![image](https://github.com/user-attachments/assets/329c28eb-8b6b-47b5-9771-e765a02c1d2f)
 
