@@ -36,7 +36,7 @@ A user-friendly GUI application for classifying plant diseases and estimating th
 pip install -r requirements.txt
 ```
 
-3. Make sure your trained model file (`model_epoch_20.keras`) is in the root directory of the application.
+3. Make sure your trained model file (`model_disease_classifier.keras`) is in the root directory of the application.
 
 ### Running the Application
 
@@ -63,7 +63,7 @@ python main_app.py
 - `main_app.py`: Main application with Tkinter GUI
 - `model_functions.py`: Model loading, prediction, and severity analysis functions
 - `utils.py`: Utility functions for labels and styling
-- `model_epoch_20.keras`: Your trained model file (not included in repo)
+- `model_disease_classifier.keras`: Your trained model file (mine included in repo)
 
 ## Custom Labels
 
@@ -83,7 +83,7 @@ You can customize the appearance of the application by modifying the color schem
 
 ## Troubleshooting
 
-- **Model not found**: Ensure that `model_epoch_20.keras` is in the same directory as the application
+- **Model not found**: Ensure that `model_disease_classifier.keras` is in the same directory as the application
 - **Dependencies issues**: Make sure all required packages are installed using `pip install -r requirements.txt`
 - **Display issues**: The application requires a GUI environment. If running on a server, ensure X11 forwarding is enabled
 
