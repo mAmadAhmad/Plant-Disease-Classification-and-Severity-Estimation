@@ -84,6 +84,7 @@ You can customize the appearance of the application by modifying the color schem
 ## Troubleshooting
 
 - **Model not found**: Ensure that `model_disease_classifier.keras` is in the same directory as the application
+- **[Trained model drive link](https://drive.google.com/file/d/1oNh_OAJtl4z4Z1Nko_poIMpzpfqZa3W7/view?usp=sharing) 
 - **Dependencies issues**: Make sure all required packages are installed using `pip install -r requirements.txt`
 - **Display issues**: The application requires a GUI environment. If running on a server, ensure X11 forwarding is enabled
 
