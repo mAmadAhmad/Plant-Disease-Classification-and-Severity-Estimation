@@ -1,11 +1,12 @@
 # Plant Disease Classification App
 
 This is my project for Digital Image Processing course I took in 6th semester.  
+I took the Plant Village Dataset from Kaggle and trained a CNN model.
 I built a user-friendly GUI application for classifying plant diseases using deep learning and estimating their severity using dip technique masking.
 
 ## Features
 
-- Plant disease classification using a pre-trained CNN model
+- Plant disease classification using a CNN model
 - Disease severity estimation
 - Real-time processing of uploaded images
 - Visualization of infected regions
