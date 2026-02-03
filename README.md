@@ -1,12 +1,12 @@
 # Plant Disease Classification App
 
-A user-friendly GUI application for classifying plant diseases and estimating their severity using deep learning.
+This is my project for Digital Image Processing course I took in 6th semester.  
+I built a user-friendly GUI application for classifying plant diseases using deep learning and estimating their severity using dip technique masking.
 
 ## Features
 
 - Plant disease classification using a pre-trained CNN model
 - Disease severity estimation
-- Clean, intuitive, and visually appealing interface
 - Real-time processing of uploaded images
 - Visualization of infected regions
 - Confidence scores and top disease predictions
@@ -65,26 +65,10 @@ python main_app.py
 - `utils.py`: Utility functions for labels and styling
 - `model_disease_classifier.keras`: Your trained model file
 
-## Custom Labels
-
-If you want to use custom labels, create a `labels.json` file in the root directory with a mapping of class indices to label names:
-
-```json
-{
-  "0": "Apple_Scab",
-  "1": "Apple_Black_Rot",
-  ...
-}
-```
-
-## Customization
-
-You can customize the appearance of the application by modifying the color scheme in the `setup_styles()` function in `utils.py`.
 
 ## Troubleshooting
 
 - **Model not found**: Ensure that `model_disease_classifier.keras` is in the same directory as the application
 - **[Trained model drive link](https://drive.google.com/file/d/1oNh_OAJtl4z4Z1Nko_poIMpzpfqZa3W7/view?usp=sharing) 
 - **Dependencies issues**: Make sure all required packages are installed using `pip install -r requirements.txt`
-- **Display issues**: The application requires a GUI environment. If running on a server, ensure X11 forwarding is enabled
 
